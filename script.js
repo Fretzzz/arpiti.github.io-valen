@@ -26,7 +26,7 @@ let currentState = 0; // 0: Envelope, 1: Letter, 2: Final/Trivia Start, 3: Trivi
 const questions = [
     {
         question: "What is my biggest dream?",
-        options: ["To be a Web3 Dev", "To get married to you!", "To become a musician", "To buy a Porche with you!"],
+        options: ["To be a Web3 Dev", "To get married to you!", "To become a musician", "To buy a Porsche with you!"],
         correct: 0
     },
     {
@@ -190,3 +190,4 @@ backBtn.addEventListener("click", () => {
         updateState(0);
     }
 });
+
